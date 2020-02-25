@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #00AAEF;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.leftArrow{
+    width: 60px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+.rightSearch{
+    width: 60px;
+    float: right;
+    position: relative;
+    top: 20px;
+}
+.headItems{
+    width: 100%;
+    background: #F7F7F7;
+    margin-bottom: 8px;
+}
+.headTime{
+    width: 97%;
+    height: 80px;
+    background: #ffffff;
+    margin: 0 auto;
+    line-height: 80px;
+    font-size: 40px;
+
+}
+.leftTime{
+    float: left;
+    width: 30%;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.calendar{
+    position: relative;
+    top: 10px;
+    width: 50px;
+}
+.rightTime{
+    float: left;
+    width: 70%
+    
+}
+.detialTime{
+    display: inline-block;
+    width: 250px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border-bottom: 3px #ECE8EB solid;
+
+}
+.headSelect{
+    width: 97%;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.selectButton{
+    width: 270px;
+    height: 90px;
+    position: relative;
+    top: 40px;
+    left: 35%;
+    background: #009300;
+    font-size: 36px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+.selectRadio{
+    margin: 80px 0 0 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 4px #ECE8EB solid;
+
+}
+input[type="radio"]{
+   width: 80px;
+   height: 60px;
+}
+label{
+    width: 25%;
+    margin: 0 0 0 8%;
+    float: left;
+    font-size: 36px;
+    line-height: 80px;
+}
+.info{
+    width: 100%;
+    height: 300px;
+}
+.daysInfo{
+    list-style-type: none;
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 4px #ECE8EB solid;
+}
+#daysInfo{
+    border-right: none;
+}
+.daysInfo li{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 32px;
+    color: #828B82;
+}
+.daysInfo li .blue{
+    color: blue;
+}
+.daysInfo li .red{
+    color: red;
+}
+.daysInfo li .green{
+    color: green;
+}
